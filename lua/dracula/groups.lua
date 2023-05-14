@@ -95,7 +95,7 @@ local function setup(configs)
       VertSplit = { fg = colors.black, },
       Folded = { fg = colors.comment, },
       FoldColumn = {},
-      Search = { fg = colors.black, bg = colors.orange, },
+      Search = { fg = colors.orange, bg = colors.selection, bold = true, underline = true, },
       IncSearch = { fg = colors.orange, bg = colors.comment, },
       LineNr = { fg = colors.comment, },
       MatchParen = { fg = colors.fg, underline = true, },
