@@ -35,7 +35,7 @@ local function setup(configs)
 
    return {
       Normal = { fg = colors.fg, bg = colors.bg, },
-      NormalFloat = { fg = colors.fg, bg = colors.bg, },
+      NormalFloat = { fg = colors.white, bg = colors.visual, },
       Comment = { fg = colors.comment, italic = configs.italic_comment, },
       Constant = { fg = colors.yellow, },
       String = { fg = colors.yellow, },
@@ -100,7 +100,7 @@ local function setup(configs)
       LineNr = { fg = colors.comment, },
       MatchParen = { fg = colors.fg, underline = true, },
       NonText = { fg = colors.nontext, },
-      Pmenu = { fg = colors.white, bg = colors.menu, },
+      Pmenu = { fg = colors.white, bg = colors.black, },
       PmenuSel = { fg = colors.white, bg = colors.selection, },
       PmenuSbar = { bg = colors.bg, },
       PmenuThumb = { bg = colors.selection, },
